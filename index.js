@@ -14,6 +14,10 @@ client.on('message', (message) => {
         const reactionEmoji = message.guild.emojis.cache.find(emoji => emoji.name === 'Kenzouille');
         message.react(reactionEmoji);
     }
+    if (message.author.id === "688786329361973256") {
+        const reactionEmoji = message.guild.emojis.cache.find(emoji => emoji.name === 'Aurelius');
+        message.react(reactionEmoji);
+    }
 });
 
 client.login(process.env.TOKEN);
