@@ -6,7 +6,7 @@ client.once('ready', () => {
     console.log('Ready!');
 
     client.user.setStatus("online");
-    client.user.setActivity("les messages de Kenza", {type:3})
+    client.user.setActivity("les messages de Kenza et Aurelie", {type:3})
 });
 
 client.on('message', (message) => {
